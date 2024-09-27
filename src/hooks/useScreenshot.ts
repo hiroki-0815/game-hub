@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import APIClient from "../services/api-client";
-import { Screenshot } from "../assets/entities/Screenshot";
+import Screenshot from "../assets/entities/Screenshot";
 
 
 const useScreenshot = (gameId: number) => {
@@ -12,4 +12,4 @@ const useScreenshot = (gameId: number) => {
    })
 }
 
-export default useScreenshot;
+export default useScreenshot; 
